@@ -81,7 +81,8 @@ fn test_bad_compound() {
 
     if compound.0[1]
         .as_any()
-        .downcast_ref::<PictureLossIndication>().is_none()
+        .downcast_ref::<PictureLossIndication>()
+        .is_none()
     {
         panic!("Unmarshal(badcompound), want PictureLossIndication")
     }
