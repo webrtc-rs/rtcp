@@ -10,7 +10,7 @@ homepage = "https://webrtc.rs"
 repository = "https://github.com/webrtc-rs/rtcp"
 
 [dependencies]
-util = { package = "webrtc-util", version = "0.5.3", default-features = false, features = ["marshal"] }
+util = { package = "webrtc-util", version = "0.5.4", default-features = false, features = ["marshal"] }
 bytes = "1"
 thiserror = "1.0"
 
